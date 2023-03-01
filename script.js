@@ -6,5 +6,6 @@ outputs your fortune to the screen like so: "You will be a X in Y, and married t
 Call that function 3 times with 3 different values for the arguments. */
 
 function tellFortune(numOfChildren, partnerName, geoLocation, jobTitle) {
-    return alert(`You will be a ${jobTitle} in ${geoLocation}, and married to ${partnerName} with ${numOfChildren} kids.`);
+    alert(`You will be a ${jobTitle} in ${geoLocation}, and married to ${partnerName} with ${numOfChildren} kids.`);
 }
+
