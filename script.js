@@ -16,7 +16,7 @@ takes 2 arguments: age, amount per day.
 calculates the amount consumed for rest of the life (based on a constant max age).
 outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
 Call that function three times, passing in different values each time.
-Bonus: Accept floating point values for amount per day, and round the result to a round number. */
+Bonus: Accept floating point values for amount per day, and round the result to a round number. 
 
 function calcSupply(AgeOfUser, amountOfSnackDay, callback) {
     const calcDifferenceAge = 77 - AgeOfUser; // used 77 as constant max age
@@ -36,5 +36,37 @@ calcSupply(42, 2, result => {
   
 calcSupply(61, 3.2, result => { 
     alert(`You will need ${result} snacks to last you until the ripe old age of 77`);
-  });
+  }); 
+
+Create 2 functions that calculate properties of a circle, using the definitions here.
+
+Create a function called calcCircumfrence:
+
+Pass the radius to the function.
+Calculate the circumference based on the radius, and output "The circumference is NN".
+Create a function called calcArea:
+
+Pass the radius to the function.
+Calculate the area based on the radius, and output "The area is NN". */
+
+const pi = 3.14;
+
+function calcCircumference(radius) {
+    let result = 2*pi*radius;
+    alert(`The circumference of the circle is ${result} units.`);
+}
+
+function calcArea(radius) {
+    let result = 2*pi*radius**2;
+    alert(`The area of the circle is ${result} units.`);
+
+}
+
+ function calc(radius) {
+    calcCircumference(radius);
+    calcArea(radius);
+} 
+
+
+
     
